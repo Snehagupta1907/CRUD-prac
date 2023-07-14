@@ -7,7 +7,7 @@ const mongoDBURI = process.env.MONGODB_URI;
 mongoose
   .connect(mongoDBURI)
   .then(() => {
-    console.log("connection succesful");
+    console.log("connection succesfull");
   })
   .catch((e) => {
     console.log(e);
